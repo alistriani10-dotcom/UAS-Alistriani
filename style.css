@@ -1,0 +1,220 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #000;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff4d4d;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-menu li a:hover {
+    color: #ff4d4d;
+}
+
+.btn-nav a {
+    background: #ff4d4d;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+/* ===== HERO ===== */
+.hero {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url(backgroun.jpg/Background\ \ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 120px 40px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff4d4d;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== STAT ===== */
+.stats {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 32px;
+    color: #ff4d4d;
+}
+
+/* ===== SECTION ===== */
+.section {
+    padding: 80px 40px;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.dark {
+    background: #111;
+}
+
+/* ===== ABOUT ===== */
+.about-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-content img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* ===== LIST ===== */
+.list {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+/* ===== TEAM ===== */
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 220px;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th,
+table td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background: #ff4d4d;
+}
+
+.signature {
+    text-align: center;
+    color: #ff4d4d;
+    margin-top: 20px;
+}
+
+/* ===== FASILITAS ===== */
+.facility {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.facility img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+/* ===== CONTACT ===== */
+.contact-img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
